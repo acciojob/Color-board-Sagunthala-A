@@ -1,16 +1,19 @@
 /*  your css code here. If applicable */
-.container{
-	display: grid;
-	grid-template-columns: repeat(20,1fr);
-	grid-template-rows: repeat(20,1fr);
-	gap: 5px;
+.container {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-gap: 10px;
+  width: 800px;
+  margin: 0 auto;
 }
-.square{
-	width: 40px;
-	height: 40px;
-	background-color: rgb(29,29,29);
-	transition: background-color 1s;
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  transition: background-color 1s;
 }
-div.square:hover{
-	background-color: red;
+
+.square:hover {
+  background-color: #ff0000;
 }
