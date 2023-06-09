@@ -1,20 +1,15 @@
-/*  your css code here. If applicable */
-.container {
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  grid-gap: 10px;
-  width: 800px;
-  margin: 0 auto;
-	background-color:rgb(29, 29, 29);
+.container{
+display: grid;
+grid-template-columns: repeat(40, 20px);
+grid-template-rows: repeat(20, 20px);
+gap: 10px;
 }
-
-.square {
-  width: 40px;
-  height: 40px;
-/*   background-color: rgb(29, 29, 29); */
-  transition: background-color 1s;
+.square{
+background-color: rgb(29,29,29);
 }
-
 .square:hover {
-  background-color: #ff0000;
+background-color: white;
+transition: 0.1s;
+transition-timing-function: linear;
+transition-duration: 0.3s;
 }
