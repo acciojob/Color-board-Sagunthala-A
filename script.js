@@ -17,7 +17,7 @@ for(let i =0; i< divElem.length; i++){
     
 })
   divElem[i].addEventListener('mouseleave',()=>{
-    divElem[i].style.backgroundColor = 'transparent';
+    divElem[i].style.backgroundColor = 'rgb(29, 29, 29)'
     divElem[i].style.transition = 'background-color 1s linear'
   })
 }
