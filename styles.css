@@ -3,10 +3,10 @@ display: grid;
 grid-template-columns: repeat(40, 20px);
 grid-template-rows: repeat(20, 20px);
 gap: 10px;
-	background-color: rgb(29,29,29);
+	background-color: rgb(0,0,0);
 }
 .square{
-/* background-color: rgb(29,29,29); */
+	background-color: rgb(29,29,29);
 }
 /* .square:hover {
 background-color:red;
