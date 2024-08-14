@@ -1,4 +1,5 @@
 // Function to create elements with a specific tag and class
+document.addEventListener('DOMContentLoaded', () => {
 function createEle(tagNam, classNam) {
   let ele = document.createElement(tagNam);
   ele.setAttribute('class', classNam);
@@ -28,4 +29,5 @@ for (let i = 0; i < 800; i++) {
     divElem.style.backgroundColor = 'rgb(29, 29, 29)';
     divElem.style.transition = 'background-color 1s linear';
   });
+}
 }
