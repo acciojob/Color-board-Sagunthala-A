@@ -8,9 +8,6 @@ gap: 10px;
 .square{
 /* background-color: rgb(29,29,29); */
 }
-.square:hover {
+/* .square:hover {
 background-color:red;
-transition: 0.1s;
-transition-timing-function: linear;
-transition-duration: 0.3s;
-}
+} */
