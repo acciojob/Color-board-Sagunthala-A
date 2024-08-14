@@ -2,7 +2,7 @@
 	display: grid;
 	width:100%;
 	grid-template-columns: repeat(40, 15px);
-	grid-template-rows: repeat(20, 20px);
+	grid-template-rows: repeat(20, 17px);
 	background-color: rgb(0,0,0);
 	gap:1px;
 	padding:1rem;
